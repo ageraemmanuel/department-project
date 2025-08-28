@@ -10,19 +10,11 @@ const content = [
     ]
   },
   {
-    title: "Sports Fields & Playgrounds",
+    title: "Fully Equipped Laboratories",
     imgUrl: [
-      `https://images.unsplash.com/photo-1717584146940-118a65525da8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0`,
-      `https://plus.unsplash.com/premium_photo-1684106554224-1df87e5c2e29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNlY29uZGFyeSUyMHNjaG9vbCUyMGZvb3RiYWxsJTIwZmllbGR8ZW58MHx8MHx8fDA%3D`,
-      `https://images.unsplash.com/photo-1733648213151-54ff57977151?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0`,
-    ]
-  },
-  {
-    title: "Fully Equipped Science Laboratories",
-    imgUrl: [
-      `https://images.unsplash.com/photo-1722407348192-a44ce83704da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0`,
-      `https://plus.unsplash.com/premium_photo-1682129938471-58c6b659cd8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0`,
-      `https://media.istockphoto.com/id/2193901967/photo/teacher-and-student-in-lad-coats-looking-happy-and-contented.webp?a=1&b=1&s=612x612&w=0&k=20&c=ueHhZczpqhluYVii7HugkCJVJD55yFvQVvkES1yRkJo=`,
+      `https://images.unsplash.com/photo-1719159381981-1327b22aff9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXIlMjBsYWJzfGVufDB8fDB8fHww`,
+      `https://images.unsplash.com/photo-1689236673934-66f8e9d9279b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXIlMjBsYWJzfGVufDB8fDB8fHww`,
+      `https://images.unsplash.com/photo-1691040516392-d9700bb4ebce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGNvbXB1dGVyJTIwbGFic3xlbnwwfHwwfHx8MA%3D%3D`,
     ]
   },
   {
@@ -37,11 +29,7 @@ const content = [
 
 const FacilitiesComponent = () => {
   return (
-    <div className="max-w-screen p-4">
-      <h1 className="text-center text-3xl sm:text-4xl font-bold pb-4 my-6 border-b-4 border-b-amber-400">
-        A Conducive Environment for Learning & Growth
-      </h1>
-
+    <div className="max-w-screen sm:p-8 p-4">
       <div>
         {content.map((cont, index) => (
           <div key={index}>

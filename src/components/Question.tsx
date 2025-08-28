@@ -7,9 +7,9 @@ const Question = () => {
         <h3 className="text-center my-4 text-3xl md:text-5xl">
           Have Any Question❓
         </h3>
-        <p>If you have questions or would like to learn more about <span className="text-amber-300 font-bold">MyShool</span></p>
+        <p>If you have questions or would like to learn more about <span className="text-amber-300 font-bold">Maths & Comp Science Dept</span></p>
         <Link href="/contact"
-          className="flex justify-self-center bg-amber-500 hover:bg-amber-700 transition-colors duration-500 text-xl font-bold rounded-xl py-2 my-10 px-10 text-white"
+          className="flex justify-self-center bg-amber-500 hover:bg-amber-600 transition-colors duration-500 text-xl font-bold rounded-xl py-2 my-10 px-10 text-white"
         >
           Get In Touch
         </Link>
