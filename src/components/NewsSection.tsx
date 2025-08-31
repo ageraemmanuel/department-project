@@ -1,5 +1,7 @@
 'use client'
 
+import { Megaphone } from "lucide-react"
+
 const news = [
   {
     title: `School set to resume on 27th, Aug, 2025`,
@@ -23,30 +25,17 @@ const news = [
 const NewsSection = () => {
 
   return (
-    <div className="max-w-full bg-gray-50 p-4">
-      <h1 className="text-3xl sm:text-5xl my-6 pb-4 text-center font-extrabold"><span className="border-b-4 border-amber-300 pb-4">Anouncements</span></h1>
-      <div className="grid grid-cols-1 gap-4 sm-grid-col-2 md:grid-cols-3">
-        {/* {
-          news.map((n, i) => (
-            <div key={i} className="bg-white rounded-xl border-gray-100 hover:border-4 p-2 sm:p-4 shadow transition-all duration-500">
-              <Image src={n.imgUrl}
-                alt="news image"
-                width={400}
-                height={400}
-                className="w-full object-center object-cover"
-              />
-              <h3 className="text-amber-600 my-4 text-2xl">{n.title}</h3>
-              <p><Link href={'/'} className="text-blue-500 font-extrabold">Read Now <span className="text-3xl">→</span></Link></p>
-            </div>
-          ))
-        } */}
-
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+    <div id="anouncen" className="max-w-full bg-amber-500 p-4">
+      <h1 className="text-3xl sm:text-5xl my-6 pb-4 text-center font-extrabold">
+        Anouncements
+        <Megaphone size={50} className="flex justify-self-center text-white" />
+      </h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:p-8 p-2">
         {
           news.map((n, i) => (
-            <div key={i} className="shadow my-4 p-4">
-              <h3 className="text-amber-600 my-4 text-lg">{n.title}</h3>
+            <div key={i} className="shadow-xl p-4 bg-white rounded-2xl">
+              <Megaphone className="flex justify-self-end text-amber-400" />
+              <h3 className="text-amber-500 mb-4 text-xl">{n.title}</h3>
               <p className="my-4">{n.content}</p>
             </div>
           ))

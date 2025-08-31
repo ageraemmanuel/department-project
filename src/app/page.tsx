@@ -10,7 +10,7 @@ import SamacosLead from "@/components/SamacosLead"
 const HomePage = () => {
 
   return (
-    <div className="max-w-screen min-h-screen mt-20">
+    <div className="max-w-screen min-h-screen mt-12 sm:mt-20">
 
       <HomeComponent />
 
