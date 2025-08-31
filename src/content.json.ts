@@ -37,3 +37,82 @@ export const homeContent = [
   }
 ]
 
+export const payments = [
+  {
+    id: 1,
+    name: 'Faculty registration',
+    amount: 1000,
+    ref: `${new Date().getTime()}MOAUM${new Date().getFullYear()}`,
+  },
+  {
+    id: 2,
+    name: 'Dept Registration',
+    amount: 2000,
+    ref: `${new Date().getTime()}MOAUM${new Date().getFullYear()}`
+  },
+  {
+    id: 3,
+    name: 'SAMACOS Dues',
+    amount: 1000,
+    ref: `${new Date().getTime()}-MOAUM-${new Date().getFullYear()}`
+  },
+]
+
+export const courses = [
+  {
+    id: 1,
+    Code: 'COS201',
+    title: 'Computer Programming II',
+    unit: 3,
+    status: 'Not Registered',
+    type: 'Core Course'
+  },
+  {
+    id: 2,
+    Code: 'IFT211',
+    title: 'Digital Electronics II',
+    unit: 2,
+    status: 'Not Registered',
+    type: 'Core Course'
+  },
+  {
+    id: 3,
+    Code: 'MTH201',
+    title: 'Mathematical Methods',
+    unit: 2,
+    status: 'Not Registered',
+    type: 'Core Course'
+  },
+  {
+    id: 4,
+    Code: 'MTH203',
+    title: 'Mathematics for computing',
+    unit: 2,
+    status: 'Not Registered',
+    type: 'Core Course'
+  },
+  {
+    id: 5,
+    Code: 'CSC201',
+    title: 'Introduction to logic ',
+    unit: 3,
+    status: 'Not Registered',
+    type: 'Core Course'
+  },
+  {
+    id: 6,
+    Code: 'ENT211',
+    title: 'Entreprenuerership',
+    unit: 2,
+    status: 'Not Registered',
+    type: 'Core Course'
+  },
+  {
+    id: 7,
+    Code: 'CYB201',
+    title: 'Introduction to CyberSecurity',
+    unit: 2,
+    status: 'Not Registered',
+    type: 'Core Course'
+  },
+]

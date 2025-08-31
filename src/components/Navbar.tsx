@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
 
-    <nav className="navbar bg-amber-300 rounded-b-2xl mb-5 h-15">
+    <nav className="navbar bg-amber-600 rounded-b-2xl mb-5 h-15">
       <div className="wrapper">
         <div>
           <Link href="/">
@@ -30,11 +30,10 @@ export default function Navbar() {
 
           <div className="menu-wrapper">
             <div className="ul">
-              <Link onClick={handleClick} href="/about" className="hover:bg-amber-400 p-4 text-white">About Us</Link>
-              <Link onClick={handleClick} href="/services" className="hover:bg-amber-400 p-4 text-white">Academics</Link>
-              <Link onClick={handleClick} href="/courses" className="hover:bg-amber-400 p-4 text-white">Portal</Link>
+              <Link onClick={handleClick} href="/admin" className="hover:bg-amber-400 p-4 text-white">Admin</Link>
+              <Link onClick={handleClick} href="/dashboard" className="hover:bg-amber-400 p-4 text-white">Portal</Link>
               <Link onClick={handleClick} href="/contact" className="hover:bg-amber-400 p-4 text-white">Contact</Link>
-              <Link onClick={handleClick} href="/blog" className="hover:bg-amber-400 p-4 text-white">History</Link>
+              <Link onClick={handleClick} href="/login" className="hover:bg-amber-400 p-4 text-white">Login</Link>
             </div>
           </div>
         </div>

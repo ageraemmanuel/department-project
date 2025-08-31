@@ -3,6 +3,8 @@ import "./globals.css";
 import { Poppins, Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "sonner";
+import RouteLoader from "@/components/RouteLoader";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["500", "700"] });
 const inter = Inter({ subsets: ["latin"], weight: ["400", "600"] });
@@ -23,9 +25,12 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${inter.className}`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <RouteLoader>
+          <Navbar />
+          {children}
+          <Toaster position="top-center" />
+          <Footer />
+        </RouteLoader>
       </body>
     </html>
   );
