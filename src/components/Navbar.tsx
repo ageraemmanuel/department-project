@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
 
-    <nav className="navbar bg-amber-600 rounded-b-2xl mb-5 h-15">
+    <nav className="navbar z-100 bg-amber-600 rounded-b-2xl mb-5 h-15">
       <div className="wrapper">
         <div>
           <Link href="/">

@@ -7,7 +7,7 @@ const CoursesComponent = () => {
       <h2 className="text-3xl sm:text-4xl font-semibold my-6 text-center text-amber-600">
         Courses to be registered
       </h2>
-      <table className="dashboard-table rounded-md border border-red-500">
+      <table className="dashboard-table">
         <thead>
           <tr>
             <th>S/N</th>

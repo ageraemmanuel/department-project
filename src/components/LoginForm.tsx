@@ -37,7 +37,7 @@ const LoginForm = () => {
         })
         toast(data.message);
         if (data.username === 'admin') {
-          router.push("/admin?ref=admin");
+          router.push("/admin/dashboard?ref=admin");
         } else {
           router.push("/dashboard?ref=student");
         }

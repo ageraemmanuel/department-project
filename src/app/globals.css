@@ -186,3 +186,13 @@
 .dashboard-table th {
   background-color: #ddd;
 }
+
+.table-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.table-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}

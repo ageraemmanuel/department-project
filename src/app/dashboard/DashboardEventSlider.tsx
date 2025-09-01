@@ -62,7 +62,7 @@ export default function DashboardEventSlider() {
       <AnimatePresence
         custom={direction} mode="wait">
         <motion.div
-          key={index} // important to animate properly
+          key={index}
           custom={direction}
           variants={variants}
           initial="enter"

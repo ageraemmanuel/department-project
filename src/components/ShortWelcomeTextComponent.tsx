@@ -2,7 +2,7 @@
 
 const ShortWelcomeTextComponent = () => {
   return (
-    <div className=" bg-amber-500 py-4 mt-6 rounded-t-2xl  text-gray-600">
+    <div className=" bg-amber-600 py-4 mt-6 rounded-t-2xl  text-gray-600">
       <div className='md:max-w-5xl m-auto'>
         <h2 className="text-3xl font-bold text-center mb-6">
           Department That Inspires Excellence
