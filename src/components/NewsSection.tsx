@@ -25,7 +25,7 @@ const news = [
 const NewsSection = () => {
 
   return (
-    <div id="anouncen" className="max-w-full bg-amber-500 p-4">
+    <div id="anouncement" className="max-w-full bg-amber-500 p-4">
       <h1 className="text-3xl sm:text-5xl my-6 pb-4 text-center font-extrabold">
         Anouncements
         <Megaphone size={50} className="flex justify-self-center text-white" />

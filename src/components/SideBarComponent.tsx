@@ -19,7 +19,7 @@ const SideBarComponent = () => {
         {sidebarOpen ? <X /> : <Menu />}
       </button>
       <aside className={`sticky z-1 top-15 left-0 w-64 h-screen bg-white shadow-lg p-4 ${sidebarOpen ? 'block' : 'hidden'} md:block`}>
-        <h2 className="text-xl font-bold mb-6">Department Admin</h2>
+        <h2 className="text-xl font-bold mb-6">Admin Dashboard</h2>
         <nav className="space-y-2">
           <Link
             href={'/admin/dashboard?ref=admin'}
@@ -32,7 +32,7 @@ const SideBarComponent = () => {
             <Users className="mr-2 h-4 w-4" /> Manage Payments
           </Link>
           <Link
-            href={"/courses"}
+            href={"/admin/courses"}
             title="Upload or edit courses" className="flex items-center w-full text-left px-3 py-2 rounded-lg hover:bg-amber-400">
             <Book className="mr-2 h-4 w-4" /> Courses
           </Link>

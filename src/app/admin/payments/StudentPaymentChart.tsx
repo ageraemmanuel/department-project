@@ -11,7 +11,8 @@ const COLORS = ["#4CAF50", "#F44336"]; // green for paid, red for not paid
 
 export default function StudentPaymentChart() {
   return (
-    <div className="flex justify-center items-center p-4 bg-white shadow rounded-2xl my-4">
+    <div className="flex flex-col justify-center items-center sm:p-4 bg-white shadow rounded-2xl my-4">
+      <h2 className="text-2xl text-amber-600 mb-4 text-center">Students Payment Chart</h2>
       <PieChart width={400} height={350}>
         <Pie
           data={data}

@@ -29,7 +29,7 @@ const content = [
 
 const FacilitiesComponent = () => {
   return (
-    <div className="max-w-screen sm:p-8 p-4">
+    <div id="facilities" className="max-w-screen sm:p-8 p-4">
       <div>
         {content.map((cont, index) => (
           <div key={index}>

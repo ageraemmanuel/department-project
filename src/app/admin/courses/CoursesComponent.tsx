@@ -4,7 +4,7 @@ const CoursesComponent = () => {
   return (
     <div>
       <h2 className="text-3xl sm:text-4xl font-semibold my-6 text-center text-amber-600">
-        Courses to be registered
+        Current Courses
       </h2>
       <table className="dashboard-table">
         <thead>
@@ -30,7 +30,7 @@ const CoursesComponent = () => {
                 <td >{cos.status}</td>
                 <td >
                   <button className="bg-amber-400 rounded-md p-2 text-white font-bold">
-                    Registter
+                    Edit
                   </button>
                 </td>
               </tr>
